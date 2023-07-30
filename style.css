@@ -1,0 +1,339 @@
+.navbar {
+   padding: 2rem;
+   background-color: rgb(12, 148, 148);
+   
+}
+
+.navbar-collapse {
+   align-items: center;
+   justify-content: space-between;
+   display: flex;
+   min-width: 250px;
+   }
+
+   /* color pagina */
+
+body {
+   background-color: rgb(12, 148, 148); 
+   color: rgb(234, 240, 239);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   
+}
+
+h6 {
+   font-size: 15px;
+   margin: 10px;
+   }
+
+/* barra de navegacion */
+
+.navbar {
+   
+   padding: 2rem;
+   
+   }
+
+.navbar-collapse {
+   align-items: center;
+   justify-content: space-between;
+   }
+
+
+/* Seccion Hero */
+
+   .hero{
+   min-height: 450px; 
+   text-align: center;
+   }
+
+   .hero-principal{
+      padding: 3rem;
+   }
+
+   /* titulo REPSOL */
+
+   h1 {
+      font-size: 4.5rem;
+      font-family: 'Rubik Dirt', cursive;
+      } 
+
+   /* características subtítulo*/
+
+   #subtitulo-lider {
+   font-size: 1.5rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 3px;
+   }
+
+   /* logo REPSOL */
+
+   .hero-imagen-repsol {
+      width: 250px;
+      height: 250px;
+      margin: 20px;
+   }
+
+/* enlaces */
+
+   .enlaces {
+      width: 300px;
+      height: 100px;
+      margin: 20px;
+      border-style: hidden;
+
+   }
+
+   .enlaces-externos {
+      display: flex;
+      justify-content: left; 
+   }
+
+  a {
+   color: aliceblue;
+   text-decoration: none;
+   }
+
+ /* primeras imagenes  */
+
+   .img-imagen {
+      
+      width: 350px;
+      height: 250px;
+      margin: 0 40px;
+   }
+
+   .primeras-imagenes {
+     display: flex;
+     justify-content: center;
+   }
+
+   @media (max-width: 900px) {
+
+      .primeras-imagenes {
+         flex-direction: column;
+         align-items: center;
+       }
+
+      .img-imagen {
+         margin-bottom: 10px;
+      } 
+    
+   }
+
+/* texto primera linea */
+
+   .primera-linea {
+      display: flex;
+      align-items: center;
+   }
+
+      .primera-linea .row div {
+      height: 250px;
+   }
+
+
+
+  /* video Repsol */
+
+  .video-repsol {
+ 
+   padding: 3rem;
+   display: flex;
+   justify-content: center;
+   text-align: center;   
+  }
+
+  @media (max-width: 700px) {
+
+   .video-repsol {
+      min-width: 250px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+   }
+        
+
+}
+
+/* imagenes de articulos */
+
+.titulo-articulo {
+   padding: 1rem;
+   margin: 3px;
+}
+
+ .bordes-redondeados {
+
+   width: 250px;
+   height: 250px;
+   margin: 0 30px;
+   border-radius: 50px;
+   border-width: 5px;
+   border-color: rgb(249, 250, 250);
+   border-style: groove;
+   
+ }
+
+ .imagenes-articulos {
+   padding: 1rem;
+   display: flex;
+   justify-content: center;
+
+   }
+
+   @media (max-width: 900px) {
+
+      .imagenes-articulos {
+         flex-direction: column;
+         align-items: center;
+       }
+
+       .bordes-redondeados {
+         margin-bottom: 10px;
+       }
+
+   }
+
+   /* texto de articulos */
+
+   .texto-articulos {
+      display: flex;
+      justify-content: center;    
+   }
+
+
+   /* Ofertas  */
+
+  .titulo-ofertas {
+   padding: 1rem;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+  
+  .ofertas {
+  display: flex;
+  justify-content: center;   
+  
+}
+
+.boton-inicio {
+   display: flex;
+   padding: 50px;
+   margin: 3px;
+}
+
+  /* contactenos */
+
+  .contacto .container {
+   max-width: 1100px;
+   min-height: 200px;
+   padding: 50px;
+}
+
+.contacto .rectangulo {
+   margin-top: -5rem;
+   background-color: rgb(7, 62, 69);
+   border-radius: 10px;
+   box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.contacto .description {
+   color: white;
+   font-size: 1.2rem;
+}
+
+.contacto button {
+   color: white;
+   font-weight: bold;
+   background-color: transparent;
+   border: 2px solid white;
+   padding: 1.25em 2em;
+   margin: 10px;
+   border-radius: 100px;
+   transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+   color: white;
+   font-size: 1.3rem;
+   transition: all 0.2s ease-in-out;      
+}
+
+.contacto button:hover {
+   background-color: white;
+   color: black;
+}
+
+.contacto button:hover i {
+   color:black
+}
+
+/* pie de pagina (footer) */
+
+footer {
+   min-height: 300px;
+}
+
+.footer-logo {
+   height: 80px;
+   width: 80px;
+   margin: 10px;
+}
+
+.footer-texto {
+   font-size: 1.5rem;
+   padding: 20px;
+   margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2px;
+   margin: 10px;
+   border: 2px solid white;
+   border-radius: 50%;
+   transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+   color: white;
+   font-size: 1.5rem;
+   transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+   background-color: white;
+   border: 2px solid rgb(13, 110, 253)
+}
+
+.iconos-redes-sociales a:hover i {
+   color: black;
+}
+
+
+
+   
+
+
+
+
+
+ 
+
